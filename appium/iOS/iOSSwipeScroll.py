@@ -8,7 +8,7 @@ def size(self):
 
 
 def left(self):
-    time.sleep(3)
+    time.sleep(1)
     max_width, max_height = size(self)
 
     start_x = round(max_width - 10)
@@ -20,7 +20,7 @@ def left(self):
 #сделать нннадо
 
 def right(self):
-    time.sleep(3)
+    time.sleep(1)
     max_width, max_height = size(self)
 
     start_x = 5
@@ -31,7 +31,7 @@ def right(self):
 
 #сделать нннадо
 def up(self):
-    time.sleep(3)
+    time.sleep(1)
     max_width, max_height = size(self)
 
     start_x = round(max_width / 2)
@@ -42,7 +42,7 @@ def up(self):
 
 
 def down(self):
-    time.sleep(3)
+    time.sleep(1)
     max_width, max_height = size(self)
 
     start_x = round(max_width / 2)

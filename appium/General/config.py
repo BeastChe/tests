@@ -10,6 +10,9 @@ platform_name = 'Android'
 platform_version = '6.0'
 device_name = 'Huawei'
 
+def wait():
+    wait = 20
+    return wait
 
 def android_desired_caps():
     desired_caps = {
@@ -38,13 +41,17 @@ def android_noreset_desired_caps():
 
 
 
+
+
 def ios_desired_caps():
     desired_caps = {
         'platformName': 'iOS',
         'platformVersion': '11.2',
         'deviceName': 'iPhone 7',
-        'app': PATH('/Users/chechetkin/PycharmProjects/appium/app/BettingInsider.app'),
-        'autoAcceptAlerts': 'true'
+        'app': PATH('/Users/chechetkin/PycharmProjects/appium/app/Kixx.app'),
+        'autoAcceptAlerts': 'true',
+        'newCommandTimeout': '50000',
+        'launchTimeout': '50000'
     }
     return desired_caps
 
@@ -53,7 +60,7 @@ def ios_noreset_desired_caps():
         'platformName': 'iOS',
         'platformVersion': '11.2',
         'deviceName': 'iPhone 7',
-        'app': PATH('/Users/chechetkin/PycharmProjects/appium/app/BettingInsider.app'),
+        'app': PATH('/Users/chechetkin/PycharmProjects/appium/app/Kixx.app'),
         'autoAcceptAlerts': 'true',
         'noReset': 'true'
     }
