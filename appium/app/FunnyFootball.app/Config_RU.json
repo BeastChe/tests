@@ -1,0 +1,9 @@
+{
+    "baseUrlString"     : "https://www.sports.ru",
+    "adPostFrequency"   : 10,
+    "loadPostCount"     : 1,
+    "commentsLoadNumber": 15,
+    "vkAppId"           : "2432279",
+    "shareURLString"    : "https://rabona.tribuna.com/ru",
+    "adsURLString"      : "https://www.sports.ru/stat/export/iphone/ads_ids.json?bundle_id=com.tribuna.rabona&platform=ios"
+}

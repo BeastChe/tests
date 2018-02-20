@@ -1,0 +1,11 @@
+--- FlowManager.swift	2016-11-28 18:02:38.000000000 +0300
++++ FlowManager1.swift	2016-11-28 18:01:45.000000000 +0300
+@@ -34,7 +34,7 @@
+     /// `false` otherwise.
+     private(set) public var paused = false
+ 
+-    internal unowned let coachMarksViewController: CoachMarksViewController
++    internal let coachMarksViewController: CoachMarksViewController
+     internal weak var dataSource: CoachMarksControllerProxyDataSource?
+ 
+     /// An object implementing the delegate data source protocol,

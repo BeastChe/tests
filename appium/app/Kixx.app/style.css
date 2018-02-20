@@ -1,0 +1,117 @@
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.clear-fix:after,.clear-fix:before {
+    content: ' ';
+    display: table
+}
+h2 {
+    padding-top: 2rem;
+    font-size: 2rem;
+}
+.clear-fix::after {
+    clear: both
+}
+.rules-popup__paragraph {
+    padding: 0;
+}
+li {
+    display: none;
+}
+div > h2 {
+    margin: 0;
+    padding: 2px 0;
+    font-size: 1.25rem;
+    color: #000;
+    background: #fff;
+    mix-blend-mode: lighten;
+}
+
+p {
+    padding: 0;
+}
+
+.rules-popup__gradient-title-wrapper {
+    margin-top: 1.5rem;
+    position: relative;
+    display: inline-block;
+    background: linear-gradient(to right, #ad0076, #ff6600);
+}
+
+.rules-popup__gradient-title-wrapper::before,
+.rules-popup__gradient-title-wrapper::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 4px;
+    background: #fff;
+}
+.rules-popup__gradient-title-wrapper::before {
+    top: -2px;
+}
+.rules-popup__gradient-title-wrapper::after {
+    bottom: -2px;
+}
+table {
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    width: 100%;
+}
+table + .rules-popup__bold-text {
+    padding-bottom: 1rem;
+}
+tbody tr {
+    width: 100%;
+    height: 3.6rem;
+}
+.tbody > tr > td {
+    border-bottom: 1px solid #ededed;
+}
+tbody > tr:last-child > td {
+    border-bottom: none;
+}
+tr > td:first-child {
+    text-align: right;
+    vertical-align: middle;
+    font-size: .8rem;
+    width: 10rem;
+}
+thead td {
+    vertical-align: middle;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+}
+tbody td {
+    vertical-align: middle;
+    text-align: center;
+    font-size: .9rem;
+    font-weight: 600;
+}
+thead div {
+    font-size: .6rem;
+    color: #000;
+    opacity: .4;
+    font-weight: 600;
+}
+.rules-popup__bold-text {
+    font-weight: 600;
+}
+.rules-popup__question-answer {
+    display: none;
+    padding-top: 2rem;
+}
+.rules-popup__question-radio {
+    display: none;
+}
+.rules-popup__question-radio:checked ~ .rules-popup__question-answer {
+    display: block;
+}
+.rules-popup__question-label {
+    display: block;
+}
