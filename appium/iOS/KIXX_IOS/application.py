@@ -1,9 +1,10 @@
 
 from appium import webdriver
 from General import config
+from iOS import iOSSwipeScroll
 
 
-class Application():
+class Application:
 
     def __init__(self):
         desired_caps = config.ios_desired_caps()
@@ -31,7 +32,7 @@ class Application():
         el3 = driver.find_element_by_xpath("//XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[1]")
         el3.send_keys(login)
         el4 = driver.find_element_by_xpath("//XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[2]")
-        el4.send_keys(login)
+        el4.send_keys(password)
         el5 = driver.find_element_by_accessibility_id("SIGN IN")
         el5.click()
 
@@ -41,3 +42,11 @@ class Application():
 
     def destroy (self):
         self.driver.quit()
+
+    def swipe (self, left, right, up, down):
+        right = self.driver.swipe(iOSSwipeScroll.right, 300)
+        left = self.driver.swipe(iOSSwipeScroll.left, 300)
+        up = self.driver.swipe(iOSSwipeScroll.up, 300)
+        down = self.driver.swipe(iOSSwipeScroll.down, 300)
+
+

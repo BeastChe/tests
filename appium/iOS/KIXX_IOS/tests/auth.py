@@ -1,6 +1,6 @@
 import pytest
+
 from iOS import iOSSwipeScroll
-from General import config
 from iOS.KIXX_IOS.application import Application
 
 
@@ -11,10 +11,10 @@ def app(request):
     return fixture
 
 
-def test_mail(self,app):
+def test_mail( app):
     app.allow()
     app.login_mail(login="chechetkin@sports.ru", password="Qw641025")
-    self.driver.swipe(iOSSwipeScroll.right, 300)
+    app.swipe()
     app.profile()
     app.logout()
 

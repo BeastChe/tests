@@ -10,9 +10,6 @@ platform_name = 'Android'
 platform_version = '6.0'
 device_name = 'Huawei'
 
-def wait():
-    wait = 20
-    return wait
 
 def android_desired_caps():
     desired_caps = {
@@ -54,6 +51,7 @@ def ios_desired_caps():
         'launchTimeout': '50000'
     }
     return desired_caps
+
 
 def ios_noreset_desired_caps():
     desired_caps = {
