@@ -1,7 +1,6 @@
 import pytest
 
-from iOS import iOSSwipeScroll
-from iOS.KIXX_IOS.application import Application
+from iOS.KIXX_IOS.fixsture.application import Application
 
 
 @pytest.fixture
@@ -11,12 +10,12 @@ def app(request):
     return fixture
 
 
-def test_mail( app):
+def test_mail(app):
     app.allow()
-    app.login_mail(login="chechetkin@sports.ru", password="Qw641025")
-    app.swipe()
+    app.session.login_mail(login="chechetkin@sports.ru", password="Qw641025")
+    app.menu()
     app.profile()
-    app.logout()
+    app.session.logout()
 
 
 
