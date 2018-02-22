@@ -152,7 +152,7 @@ def fb(self):
         authFB.click()
 
     try:
-        print(' ')
+        pass
 
     except:
 

@@ -2,7 +2,7 @@
 from appium import webdriver
 from General import config
 from iOS.KIXX_IOS.fixsture.session import SessionHelper
-
+from time import sleep
 
 class Application:
 
@@ -24,6 +24,13 @@ class Application:
     def profile(self):
         avatar = self.driver.find_element_by_xpath("//XCUIElementTypeOther[1]/XCUIElementTypeImage")
         avatar.click()
+
+    def vk_login(self):
+        vk = self.driver.find_element_by_accessibility_id("ic vk")
+        vk.click()
+        sleep(8)
+        self.driver.tap([(30, 235)])
+        sleep(8)
 
     def destroy (self):
         self.driver.quit()
