@@ -44,7 +44,7 @@ def ios_desired_caps():
     desired_caps = {
         'platformName': 'iOS',
         'platformVersion': '11.2',
-        'deviceName': 'iPhone SE',
+        'deviceName': 'iPhone 7',
         'app': PATH('/Users/chechetkin/PycharmProjects/appium/app/Kixx.app'),
         'autoAcceptAlerts': 'true',
         'newCommandTimeout': '50000',
@@ -57,7 +57,7 @@ def ios_noreset_desired_caps():
     desired_caps = {
         'platformName': 'iOS',
         'platformVersion': '11.2',
-        'deviceName': 'iPhone SE',
+        'deviceName': 'iPhone 7',
         'app': PATH('/Users/chechetkin/PycharmProjects/appium/app/Kixx.app'),
         'autoAcceptAlerts': 'true',
         'noReset': 'true'

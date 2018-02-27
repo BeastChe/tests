@@ -1,4 +1,12 @@
 
+from time import sleep
+
+
+
+
+
+from selenium.webdriver.common.action_chains import ActionChains
+
 class SessionHelper:
 
     def __init__ (self,app):
@@ -7,16 +15,47 @@ class SessionHelper:
 
     def login_mail(self, login, password):
         driver = self.app.driver
-        el1 = driver.find_element_by_accessibility_id("Log In")
-        el1.click()
-        el2 = driver.find_element_by_accessibility_id("ic mail")
-        el2.click()
-        el3 = driver.find_element_by_xpath("//XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[1]")
-        el3.send_keys(login)
-        el4 = driver.find_element_by_xpath("//XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[2]")
-        el4.send_keys(password)
-        el5 = driver.find_element_by_accessibility_id("SIGN IN")
-        el5.click()
+        driver.find_element_by_accessibility_id("ic mail").click()
+        driver.find_element_by_xpath("//XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[1]").send_keys(login)
+        driver.find_element_by_xpath("//XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[2]").send_keys(password)
+        driver.find_element_by_accessibility_id("SIGN IN").click()
+        sleep(1) # какой-то микробаг, приложение зависает если сразу в меню заходить
+
+
+    def vk_login(self, login, password):
+        driver = self.app.driver
+        driver.find_element_by_accessibility_id("ic vk").click()
+        try:
+            driver.find_element_by_class_name("XCUIElementTypeTextField").send_keys(login)
+            driver.find_element_by_class_name("XCUIElementTypeSecureTextField").send_keys(password)
+            driver.find_element_by_accessibility_id("Log in").click()
+            driver.find_element_by_accessibility_id("Allow").click()
+        except:
+            pass
+
+
+    def fb_login(self, login, password):
+        driver = self.app.driver
+        driver.find_element_by_accessibility_id("ic fb").click()
+        try:
+            driver.find_element_by_class_name("XCUIElementTypeTextField").send_keys(login)
+            driver.find_element_by_class_name("XCUIElementTypeSecureTextField").click()
+            driver.find_element_by_class_name("XCUIElementTypeSecureTextField").send_keys(password)
+            driver.find_element_by_accessibility_id("Log In").click()
+            driver.find_element_by_class_name("XCUIElementTypeButton").click()
+            driver.find_element_by_accessibility_id("Продолжить").click()
+
+        except:
+            driver.find_element_by_accessibility_id("Продолжить").click()
+
+    def tw_login(self, login, password):
+        driver = self.app.driver
+        driver.find_element_by_accessibility_id("ic tw").click()
+        driver.find_element_by_class_name("XCUIElementTypeTextField").send_keys(login)
+        driver.find_element_by_class_name("XCUIElementTypeSecureTextField").click()
+        driver.find_element_by_class_name("XCUIElementTypeSecureTextField").send_keys(password)
+        driver.find_element_by_accessibility_id("Войти").click()
+
 
 
     def logout(self):
