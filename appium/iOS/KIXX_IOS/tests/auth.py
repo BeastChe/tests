@@ -1,7 +1,3 @@
-import pytest
-
-from iOS.KIXX_IOS.fixsture.application import Application
-
 
 
 
@@ -35,7 +31,7 @@ def test_tw(app):
     app.session.logout()
 
 
-#    ("GET STARTED")
+
 
 
 

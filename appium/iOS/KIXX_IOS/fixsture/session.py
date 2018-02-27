@@ -16,6 +16,16 @@ class SessionHelper:
         driver.find_element_by_accessibility_id("SIGN IN").click()
         sleep(2) # какой-то микробаг, приложение зависает если сразу в меню заходить
 
+    def signup_mail(self, name, email, password):
+        driver = self.app.driver
+        driver.find_element_by_accessibility_id("GET STARTED").click()
+        driver.find_element_by_accessibility_id("Your name").send_keys(name)
+        driver.find_element_by_accessibility_id("Your email").send_keys(email)
+        driver.find_element_by_accessibility_id("Password").send_keys(password)
+        driver.find_element_by_accessibility_id("JOIN FOR FREE").click()
+
+
+
 
     def vk_login(self, login, password):
         driver = self.app.driver
