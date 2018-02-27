@@ -19,7 +19,7 @@ class SessionHelper:
         driver.find_element_by_xpath("//XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[1]").send_keys(login)
         driver.find_element_by_xpath("//XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[2]").send_keys(password)
         driver.find_element_by_accessibility_id("SIGN IN").click()
-        sleep(1) # какой-то микробаг, приложение зависает если сразу в меню заходить
+        sleep(2) # какой-то микробаг, приложение зависает если сразу в меню заходить
 
 
     def vk_login(self, login, password):
