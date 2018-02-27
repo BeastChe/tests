@@ -15,8 +15,6 @@ def test_mail(app):
 
 
 def test_vk(app):
-    app.allow()
-    app.login()
     app.session.vk_login(login="79670738123", password="qwer123vk")
     app.menu()
     app.profile()
@@ -24,18 +22,14 @@ def test_vk(app):
 
 
 def test_fb(app):
-    app.allow()
-    app.login()
-    app.session.fb_login(login = "79654398720", password = "qwerfb88")
+    app.session.fb_login(login="79654398720", password="qwerfb88")
     app.menu()
     app.profile()
     app.session.logout()
 
 
 def test_tw(app):
-    app.allow()
-    app.login()
-    app.session.tw_login(login = "79884018685", password = "qwer4321t")
+    app.session.tw_login(login="79884018685", password="qwer4321t")
     app.menu()
     app.profile()
     app.session.logout()
