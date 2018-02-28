@@ -8,6 +8,12 @@ class SessionHelper:
         self.app = app
 
 
+    def first_run(self):
+        driver = self.app.driver
+        allow = driver.find_elements_by_name("Allow")
+        allow[0].click()
+        driver.find_element_by_accessibility_id("Log In").click()
+
     def login_mail(self, login, password):
         driver = self.app.driver
         driver.find_element_by_accessibility_id("ic mail").click()

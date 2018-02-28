@@ -2,8 +2,6 @@
 
 
 def test_mail(app):
-    app.allow()
-    app.login()
     app.session.login_mail(login="chechetkin@sports.ru", password="Qw641025")
     app.session.logout_from_lobby()
 

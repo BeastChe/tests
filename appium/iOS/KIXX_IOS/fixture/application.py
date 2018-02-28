@@ -1,7 +1,7 @@
 
 from appium import webdriver
 from General import config
-from iOS.KIXX_IOS.fixsture.session import SessionHelper
+from iOS.KIXX_IOS.fixture.session import SessionHelper
 
 
 
@@ -13,14 +13,22 @@ class Application:
         self.driver.implicitly_wait(10)
         self.session = SessionHelper(self)
 
-    def login(self):
-        driver = self.driver
-        driver.find_element_by_accessibility_id("Log In").click()
+    def is_valid (self):
+        try:
+            self.driver.desired_capabilities
+            print(self.driver.desired_capabilities)
+        except:
+            return False
 
     def allow(self):
         driver = self.driver
         allow = driver.find_elements_by_name("Allow")
         allow[0].click()
+
+    def login(self):
+        driver = self.driver
+        driver.find_element_by_accessibility_id("Log In").click()
+
 
     def menu(self):
         icon_menu = self.driver.find_element_by_name("icon menu")

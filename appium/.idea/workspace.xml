@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a465d745-508d-42aa-9c36-64f25275636f" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/iOS/KIXX_IOS/conftest.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/iOS/KIXX_IOS/fixsture/application.py" afterPath="$PROJECT_DIR$/iOS/KIXX_IOS/fixsture/application.py" />
-      <change beforePath="$PROJECT_DIR$/iOS/KIXX_IOS/fixsture/session.py" afterPath="$PROJECT_DIR$/iOS/KIXX_IOS/fixsture/session.py" />
+      <change beforePath="$PROJECT_DIR$/iOS/KIXX_IOS/fixsture/__init__.py" afterPath="$PROJECT_DIR$/iOS/KIXX_IOS/fixture/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/iOS/KIXX_IOS/fixsture/application.py" afterPath="$PROJECT_DIR$/iOS/KIXX_IOS/fixture/application.py" />
+      <change beforePath="$PROJECT_DIR$/iOS/KIXX_IOS/fixsture/session.py" afterPath="$PROJECT_DIR$/iOS/KIXX_IOS/fixture/session.py" />
+      <change beforePath="$PROJECT_DIR$/iOS/KIXX_IOS/tests/.pytest_cache/v/cache/lastfailed" afterPath="$PROJECT_DIR$/iOS/KIXX_IOS/tests/.pytest_cache/v/cache/lastfailed" />
       <change beforePath="$PROJECT_DIR$/iOS/KIXX_IOS/tests/auth.py" afterPath="$PROJECT_DIR$/iOS/KIXX_IOS/tests/auth.py" />
-      <change beforePath="$PROJECT_DIR$/iOS/KIXX_IOS/tests/signup.py" afterPath="$PROJECT_DIR$/iOS/KIXX_IOS/tests/signup.py" />
+      <change beforePath="$PROJECT_DIR$/iOS/KIXX_IOS/tests/conftest.py" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,23 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="auth_popup.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Android/test/auth_popup.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="auth.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iOS/KIXX_IOS/tests/auth.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="35" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="22" selection-end-column="35" />
+            <state relative-caret-position="75">
+              <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -63,43 +54,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="auth_profile.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Android/test/auth_profile.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="signup.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/iOS/KIXX_IOS/tests/signup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="rnd_mail.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/General/rnd_mail.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="21" lean-forward="true" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+            <state relative-caret-position="135">
+              <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="application.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/iOS/KIXX_IOS/fixsture/application.py">
+        <entry file="file://$PROJECT_DIR$/iOS/KIXX_IOS/fixture/application.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="32" column="75" lean-forward="false" selection-start-line="32" selection-start-column="75" selection-end-line="32" selection-end-column="75" />
+            <state relative-caret-position="286">
+              <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
               <folding>
                 <element signature="e#1#29#0" expanded="true" />
               </folding>
@@ -108,20 +77,20 @@
         </entry>
       </file>
       <file leaf-file-name="session.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/iOS/KIXX_IOS/fixsture/session.py">
+        <entry file="file://$PROJECT_DIR$/iOS/KIXX_IOS/fixture/session.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+            <state relative-caret-position="210">
+              <caret line="14" column="65" lean-forward="true" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="conftest.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/iOS/KIXX_IOS/tests/conftest.py">
+        <entry file="file://$PROJECT_DIR$/iOS/KIXX_IOS/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+            <state relative-caret-position="285">
+              <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
               <folding>
                 <element signature="e#1#14#0" expanded="true" />
               </folding>
@@ -190,12 +159,15 @@
         <option value="$PROJECT_DIR$/iOS/iOSSwipeScroll.py" />
         <option value="$PROJECT_DIR$/Android/auth.py" />
         <option value="$PROJECT_DIR$/General/config.py" />
-        <option value="$PROJECT_DIR$/iOS/KIXX_IOS/tests/conftest.py" />
         <option value="$PROJECT_DIR$/General/rnd_mail.py" />
-        <option value="$PROJECT_DIR$/iOS/KIXX_IOS/tests/auth.py" />
         <option value="$PROJECT_DIR$/iOS/KIXX_IOS/fixsture/session.py" />
+        <option value="$PROJECT_DIR$/iOS/KIXX_IOS/tests/auth.py" />
         <option value="$PROJECT_DIR$/iOS/KIXX_IOS/fixsture/application.py" />
+        <option value="$PROJECT_DIR$/iOS/KIXX_IOS/fixture/session.py" />
+        <option value="$PROJECT_DIR$/iOS/KIXX_IOS/tests/conftest.py" />
+        <option value="$PROJECT_DIR$/iOS/KIXX_IOS/fixture/application.py" />
         <option value="$PROJECT_DIR$/iOS/KIXX_IOS/tests/signup.py" />
+        <option value="$PROJECT_DIR$/iOS/KIXX_IOS/conftest.py" />
       </list>
     </option>
   </component>
@@ -277,13 +249,6 @@
               <item name="appium" type="462c0819:PsiDirectoryNode" />
               <item name="iOS" type="462c0819:PsiDirectoryNode" />
               <item name="KIXX_IOS" type="462c0819:PsiDirectoryNode" />
-              <item name="fixsture" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="appium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="appium" type="462c0819:PsiDirectoryNode" />
-              <item name="iOS" type="462c0819:PsiDirectoryNode" />
-              <item name="KIXX_IOS" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -305,15 +270,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Android" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/iOS/KIXX_IOS" />
       <recent name="$PROJECT_DIR$/iOS/KIXX_IOS/fixsture" />
       <recent name="$PROJECT_DIR$/Android" />
       <recent name="$PROJECT_DIR$/" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/Android/test" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Android" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -329,7 +294,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test in signup.py">
+  <component name="RunManager" selected="Python tests.py.test in auth.py">
+    <configuration name="__init__" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/iOS/KIXX_IOS/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="appium" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/iOS/KIXX_IOS/tests/__init__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="auth" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -361,21 +344,6 @@
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/iOS/KIXX_IOS/tests/auth.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
-    <configuration name="py.test in iOS" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/iOS" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="appium" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/iOS&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration name="py.test in signup.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -410,18 +378,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.auth" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in iOS" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in tests" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in auth.py" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in signup.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in tests" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in auth.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in signup.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python.__init__" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in signup.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in auth.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python.auth" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in tests" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in iOS" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in auth.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python.__init__" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test in signup.py" />
+        <item index="3" class="java.lang.String" itemvalue="Python.auth" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in tests" />
       </list>
     </recent_temporary>
   </component>
@@ -442,49 +410,50 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_auth_py - 2018.02.27 at 15h 35m 04s.xml">
+    <history-entry file="py_test_in_auth_py - 2018.02.28 at 14h 53m 55s.xml">
       <configuration name="py.test in auth.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_auth_py - 2018.02.27 at 15h 37m 06s.xml">
-      <configuration name="py.test in auth.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="py_test_in_signup_py - 2018.02.27 at 15h 50m 07s.xml">
+    <history-entry file="py_test_in_signup_py - 2018.02.28 at 14h 19m 58s.xml">
       <configuration name="py.test in signup.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_signup_py - 2018.02.27 at 16h 00m 00s.xml">
+    <history-entry file="py_test_in_signup_py - 2018.02.28 at 14h 22m 16s.xml">
       <configuration name="py.test in signup.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_signup_py - 2018.02.27 at 16h 00m 20s.xml">
+    <history-entry file="py_test_in_signup_py - 2018.02.28 at 14h 28m 07s.xml">
       <configuration name="py.test in signup.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_signup_py - 2018.02.27 at 16h 02m 33s.xml">
+    <history-entry file="py_test_in_signup_py - 2018.02.28 at 14h 30m 17s.xml">
       <configuration name="py.test in signup.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_signup_py - 2018.02.27 at 16h 26m 30s.xml">
+    <history-entry file="py_test_in_signup_py - 2018.02.28 at 14h 33m 00s.xml">
       <configuration name="py.test in signup.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_signup_py - 2018.02.27 at 16h 27m 38s.xml">
+    <history-entry file="py_test_in_signup_py - 2018.02.28 at 14h 41m 34s.xml">
       <configuration name="py.test in signup.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_signup_py - 2018.02.28 at 11h 38m 07s.xml">
+    <history-entry file="py_test_in_signup_py - 2018.02.28 at 14h 41m 41s.xml">
       <configuration name="py.test in signup.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_signup_py - 2018.02.28 at 11h 41m 09s.xml">
+    <history-entry file="py_test_in_signup_py - 2018.02.28 at 14h 44m 19s.xml">
+      <configuration name="py.test in signup.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_signup_py - 2018.02.28 at 14h 49m 00s.xml">
       <configuration name="py.test in signup.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="291" y="1080" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17890625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17871326" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34933335" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3480055" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39889959" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -495,13 +464,33 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34933335" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17890625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="23" />
+      <option name="time" value="37" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -709,7 +698,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iOS/KIXX_IOS/fixsture/application.py">
+    <entry file="file://$PROJECT_DIR$/iOS/KIXX_IOS/fixture/application.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="28" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="42" selection-end-column="26" />
@@ -810,24 +799,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/iOS/KIXX_IOS/tests/auth.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="35" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="22" selection-end-column="35" />
+        <state relative-caret-position="75">
+          <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iOS/KIXX_IOS/fixsture/session.py">
+    <entry file="file://$PROJECT_DIR$/iOS/KIXX_IOS/fixture/session.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+        <state relative-caret-position="210">
+          <caret line="14" column="65" lean-forward="true" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iOS/KIXX_IOS/fixsture/application.py">
+    <entry file="file://$PROJECT_DIR$/iOS/KIXX_IOS/fixture/application.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="32" column="75" lean-forward="false" selection-start-line="32" selection-start-column="75" selection-end-line="32" selection-end-column="75" />
+        <state relative-caret-position="286">
+          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
           <folding>
             <element signature="e#1#29#0" expanded="true" />
           </folding>
@@ -836,16 +825,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/iOS/KIXX_IOS/tests/signup.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="135">
+          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iOS/KIXX_IOS/tests/conftest.py">
+    <entry file="file://$PROJECT_DIR$/iOS/KIXX_IOS/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        <state relative-caret-position="285">
+          <caret line="19" column="4" lean-forward="false" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
           <folding>
             <element signature="e#1#14#0" expanded="true" />
           </folding>
