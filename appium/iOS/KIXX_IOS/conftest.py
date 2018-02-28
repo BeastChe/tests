@@ -17,6 +17,8 @@ def app(request):
             fixture = Application()
             fixture.session.first_run()
 
-    
-    request.addfinalizer(fixture.destroy)
+    def fin():
+        fixture.session.logout_from_lobby()
+        fixture.destroy()
+    request.addfinalizer(fin)
     return fixture
