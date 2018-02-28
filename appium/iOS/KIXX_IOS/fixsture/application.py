@@ -29,6 +29,8 @@ class Application:
     def profile(self):
         self.driver.find_element_by_xpath("//XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeTable/XCUIElementTypeCell[1]").click()
 
+    def get_started(self):
+        self.driver.find_element_by_accessibility_id("GET STARTED").click()
 
     def destroy (self):
         self.driver.quit()
