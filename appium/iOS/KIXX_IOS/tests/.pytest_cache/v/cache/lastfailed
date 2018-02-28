@@ -1,4 +1,3 @@
 {
-  "auth.py::test_tw": true,
   "signup.py::test_signup": true
 }
