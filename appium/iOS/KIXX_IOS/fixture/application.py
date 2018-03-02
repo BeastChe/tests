@@ -2,6 +2,7 @@
 from appium import webdriver
 from General import config
 from iOS.KIXX_IOS.fixture.session import SessionHelper
+from iOS.KIXX_IOS.fixture.user import UserHelper
 
 
 
@@ -12,11 +13,11 @@ class Application:
         self.driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
         self.driver.implicitly_wait(10)
         self.session = SessionHelper(self)
+        self.user = UserHelper(self)
 
     def is_valid (self):
         try:
-            self.driver.desired_capabilities
-            print(self.driver.desired_capabilities)
+            0==1
         except:
             return False
 
@@ -34,7 +35,7 @@ class Application:
         icon_menu = self.driver.find_element_by_name("icon menu")
         icon_menu.click()
 
-    def profile(self):
+    def click_profile(self):
         self.driver.find_element_by_xpath("//XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeTable/XCUIElementTypeCell[1]").click()
 
     def get_started(self):

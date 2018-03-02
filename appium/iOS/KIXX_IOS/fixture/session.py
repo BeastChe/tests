@@ -1,5 +1,6 @@
 
 from time import sleep
+from iOS.KIXX_IOS.model.user import User
 
 
 class SessionHelper:
@@ -14,40 +15,40 @@ class SessionHelper:
         allow[0].click()
         driver.find_element_by_accessibility_id("Log In").click()
 
-    def login_mail(self, login, password):
+    def login_mail(self, user):
         driver = self.app.driver
         driver.find_element_by_accessibility_id("ic mail").click()
-        driver.find_element_by_xpath("//XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[1]").send_keys(login)
-        driver.find_element_by_xpath("//XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[2]").send_keys(password)
+        driver.find_element_by_xpath("//XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[1]").send_keys(user.login)
+        driver.find_element_by_xpath("//XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[2]").send_keys(user.password)
         driver.find_element_by_accessibility_id("SIGN IN").click()
         sleep(2)  # какой-то микробаг, приложение зависает если сразу в меню заходить за польхователя с евро
 
-    def signup_mail(self, name, email, password):
+    def signup_mail(self, user):
         driver = self.app.driver
-        driver.find_element_by_accessibility_id("Your name").send_keys(name)
-        driver.find_element_by_accessibility_id("Your email").send_keys(email)
-        driver.find_element_by_accessibility_id("Password").send_keys(password)
+        driver.find_element_by_accessibility_id("Your name").send_keys(user.name)
+        driver.find_element_by_accessibility_id("Your email").send_keys(user.login)
+        driver.find_element_by_accessibility_id("Password").send_keys(user.password)
         driver.find_element_by_accessibility_id("JOIN FOR FREE").click()
 
-    def vk_login(self, login, password):
+    def vk_login(self, user):
         driver = self.app.driver
         driver.find_element_by_accessibility_id("ic vk").click()
         try:
-            driver.find_element_by_class_name("XCUIElementTypeTextField").send_keys(login)
-            driver.find_element_by_class_name("XCUIElementTypeSecureTextField").send_keys(password)
+            driver.find_element_by_class_name("XCUIElementTypeTextField").send_keys(user.login)
+            driver.find_element_by_class_name("XCUIElementTypeSecureTextField").send_keys(user.password)
             driver.find_element_by_accessibility_id("Log in").click()
             driver.find_element_by_accessibility_id("Allow").click()
 
         except:
             pass
 
-    def fb_login(self, login, password):
+    def fb_login(self, user):
         driver = self.app.driver
         driver.find_element_by_accessibility_id("ic fb").click()
         try:
-            driver.find_element_by_class_name("XCUIElementTypeTextField").send_keys(login)
+            driver.find_element_by_class_name("XCUIElementTypeTextField").send_keys(user.login)
             driver.find_element_by_class_name("XCUIElementTypeSecureTextField").click()
-            driver.find_element_by_class_name("XCUIElementTypeSecureTextField").send_keys(password)
+            driver.find_element_by_class_name("XCUIElementTypeSecureTextField").send_keys(user.password)
             driver.find_element_by_accessibility_id("Log In").click()
             driver.find_element_by_class_name("XCUIElementTypeButton").click()
             driver.find_element_by_accessibility_id("Продолжить").click()
@@ -55,12 +56,12 @@ class SessionHelper:
         except:
             driver.find_element_by_accessibility_id("Продолжить").click()
 
-    def tw_login(self, login, password):
+    def tw_login(self, user):
         driver = self.app.driver
         driver.find_element_by_accessibility_id("ic tw").click()
-        driver.find_element_by_class_name("XCUIElementTypeTextField").send_keys(login)
+        driver.find_element_by_class_name("XCUIElementTypeTextField").send_keys(user.login)
         driver.find_element_by_class_name("XCUIElementTypeSecureTextField").click()
-        driver.find_element_by_class_name("XCUIElementTypeSecureTextField").send_keys(password)
+        driver.find_element_by_class_name("XCUIElementTypeSecureTextField").send_keys(user.password)
         driver.find_element_by_accessibility_id("Войти").click()
 
     def logout(self):

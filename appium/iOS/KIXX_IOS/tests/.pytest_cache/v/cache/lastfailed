@@ -1,3 +1,4 @@
 {
-  "signup.py::test_signup": true
+  "auth.py::test_logout": true,
+  "auth.py::test_mail": true
 }
