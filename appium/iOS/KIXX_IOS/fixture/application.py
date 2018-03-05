@@ -2,7 +2,7 @@
 from appium import webdriver
 from General import config
 from iOS.KIXX_IOS.fixture.session import SessionHelper
-from iOS.KIXX_IOS.fixture.user import UserHelper
+from iOS.KIXX_IOS.fixture.user_data import UserHelper
 
 
 
@@ -13,7 +13,7 @@ class Application:
         self.driver = webdriver.Remote('http://localhost:4723/wd/hub', desired_caps)
         self.driver.implicitly_wait(10)
         self.session = SessionHelper(self)
-        self.user = UserHelper(self)
+        self.user_data = UserHelper(self)
 
     def is_valid (self):
         try:
@@ -29,7 +29,6 @@ class Application:
     def login(self):
         driver = self.driver
         driver.find_element_by_accessibility_id("Log In").click()
-
 
     def menu(self):
         icon_menu = self.driver.find_element_by_name("icon menu")

@@ -1,11 +1,14 @@
 from iOS.KIXX_IOS.model.user import User
+from iOS.KIXX_IOS.fixture.user_data import UserHelper
+from iOS.KIXX_IOS import data
 
 def test_mail(app):
+    app.session.login_mail()
     app.session.login_mail(User(login="xer@mailinator.com", password="password"))
-    # app.menu()
-    # app.click_profile()
-    #assert app.user.get_user_name == "Mr Boss"
+    assert app.user_data.get_user_name().is_displayed()
 
+    #assert app.user.get_user_name.is_displayed()
+    app.session.logout()
 
 def test_vk(app):
     app.session.vk_login(User(login="79670738123", password="qwer123vk"))

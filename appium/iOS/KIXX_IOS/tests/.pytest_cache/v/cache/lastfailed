@@ -1,4 +1,7 @@
 {
+  "auth.py::test_fb": true,
   "auth.py::test_logout": true,
-  "auth.py::test_mail": true
+  "auth.py::test_mail": true,
+  "auth.py::test_tw": true,
+  "auth.py::test_vk": true
 }

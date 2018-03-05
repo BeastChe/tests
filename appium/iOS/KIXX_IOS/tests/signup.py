@@ -4,7 +4,7 @@ from General import rnd_mail
 
 def test_signup(app):
     app.get_started()
-    app.session.signup_mail(User(name = rnd_mail.random_name(), login = rnd_mail.generate_random_emails(),  password="password"))
+    app.session.signup_mail(User(name=rnd_mail.random_name(), login=rnd_mail.generate_random_emails(),  password="password"))
 
 def test_vk(app):
     app.get_started()

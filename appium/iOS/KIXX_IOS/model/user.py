@@ -8,3 +8,6 @@ class User:
 
     def __repr__(self):
         return "%s" % (self.name)
+
+    def __eq__(self, other):
+        return self.name == other.name
