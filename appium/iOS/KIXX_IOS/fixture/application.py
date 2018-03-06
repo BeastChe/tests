@@ -40,6 +40,12 @@ class Application:
     def get_started(self):
         self.driver.find_element_by_accessibility_id("GET STARTED").click()
 
+    def lobby_loaded (self):
+        contests = self.driver.find_element_by_accessibility_id("Contests")
+        league_card = self.driver.find_element_by_xpath("//XCUIElementTypeCell[3]")
+        if contests.is_displayed() and league_card.is_displayed():
+            return True
+
     def destroy (self):
         self.driver.quit()
 

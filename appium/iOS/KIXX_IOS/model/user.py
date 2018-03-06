@@ -7,7 +7,7 @@ class User:
         self.password = password
 
     def __repr__(self):
-        return "%s" % (self.name)
+        return "%s:%s:%s" % (self.name, self.login, self.password)
 
     def __eq__(self, other):
-        return self.name == other.name
+        return self.name == other.name and self.login == other.login and self.password == other.password

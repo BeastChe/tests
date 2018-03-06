@@ -1,13 +1,14 @@
+import pytest
+
 from iOS.KIXX_IOS.model.user import User
 from iOS.KIXX_IOS.fixture.user_data import UserHelper
-from iOS.KIXX_IOS import data
+from iOS.KIXX_IOS.data import users_data
 
-def test_mail(app):
-    app.session.login_mail()
-    app.session.login_mail(User(login="xer@mailinator.com", password="password"))
+@pytest.mark.parametrize("user", [users_data.email[0]])
+def test_mail(app, user):
+    app.session.login_mail(user)
+    assert app.lobby_loaded() is True
     assert app.user_data.get_user_name().is_displayed()
-
-    #assert app.user.get_user_name.is_displayed()
     app.session.logout()
 
 def test_vk(app):
@@ -16,7 +17,6 @@ def test_vk(app):
 
 def test_fb(app):
     app.session.fb_login(User(login="79654398720", password="qwerfb88"))
-
 
 
 def test_tw(app):
