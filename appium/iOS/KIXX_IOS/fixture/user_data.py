@@ -1,4 +1,5 @@
 from iOS.KIXX_IOS.model.user import User
+from iOS.KIXX_IOS.data import users_data
 
 
 class UserHelper:
@@ -15,7 +16,9 @@ class UserHelper:
     def get_user_name(self):
         driver = self.app.driver
         self.user_page()
-        name = driver.find_element_by_accessibility_id("Mr Boss")
+        name = driver.find_element_by_accessibility_id(users_data.email[0].name)
+        print(users_data.email[0].name)
+        #name = driver.find_element_by_accessibility_id("Mr Boss")
         return name
 
 

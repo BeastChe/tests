@@ -21,7 +21,6 @@ class SessionHelper:
         driver.find_element_by_xpath("//XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[1]").send_keys(user.login)
         driver.find_element_by_xpath("//XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[2]").send_keys(user.password)
         driver.find_element_by_accessibility_id("SIGN IN").click()
-        sleep(2)  # какой-то микробаг, приложение зависает если сразу в меню заходить за пользователя с евро
 
     def signup_mail(self, user):
         driver = self.app.driver
