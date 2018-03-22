@@ -16,6 +16,7 @@ class UserHelper:
     def get_user_name(self):
         driver = self.app.driver
         self.user_page()
+        # БАГ
         name = driver.find_element_by_accessibility_id(users_data.email[0].name)
         print(users_data.email[0].name)
         #name = driver.find_element_by_accessibility_id("Mr Boss")

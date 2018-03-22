@@ -4,7 +4,7 @@ from iOS.KIXX_IOS.model.user import User
 from iOS.KIXX_IOS.fixture.user_data import UserHelper
 from iOS.KIXX_IOS.data import users_data
 
-@pytest.mark.parametrize("user", [users_data.email[0]])
+@pytest.mark.parametrize("user", [users_data.user])
 def test_mail(app, user):
     app.session.login_mail(user)
     assert app.lobby_loaded() is True
