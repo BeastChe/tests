@@ -1,14 +1,18 @@
 import pytest
 
 from iOS.KIXX_IOS.model.user import User
-from iOS.KIXX_IOS.fixture.user_data import UserHelper
+from iOS.KIXX_IOS.fixture import user_data
 from iOS.KIXX_IOS.data import users_data
 
-@pytest.mark.parametrize("user", [users_data.user])
-def test_mail(app, user):
+
+def test_mail(app):
+    driver = app.driver
+    user = app.user_data.selected_user(selected_type_auth = "email")
+    #user = app.user_data.selected_user(user_data.auth_type.email)
     app.session.login_mail(user)
     assert app.lobby_loaded() is True
-    assert app.user_data.get_user_name().is_displayed()
+    app.user_data.user_page()
+    assert driver.find_element_by_accessibility_id(user.name).is_displayed()
     app.session.logout()
 
 def test_vk(app):
