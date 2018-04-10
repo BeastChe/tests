@@ -16,7 +16,6 @@ class SessionHelper:
 
     def login_mail(self, user):
         driver = self.app.driver
-        print(user)
         driver.find_element_by_accessibility_id("ic mail").click()
         driver.find_element_by_xpath("//XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[1]").send_keys(user.login)
         driver.find_element_by_xpath("//XCUIElementTypeOther/XCUIElementTypeTable/XCUIElementTypeCell[2]").send_keys(user.password)

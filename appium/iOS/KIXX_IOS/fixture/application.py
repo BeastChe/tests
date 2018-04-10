@@ -16,8 +16,11 @@ class Application:
         self.user_data = UserHelper(self)
 
     def is_valid (self):
+        driver = self.driver
         try:
-            0==1
+            if driver.find_element_by_accessibility_id("Log In").is_displayed() and driver.find_element_by_accessibility_id("GET STARTED").is_displayed():
+                return True
+
         except:
             return False
 
