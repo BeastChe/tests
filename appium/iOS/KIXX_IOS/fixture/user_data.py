@@ -21,7 +21,6 @@ class UserHelper:
         print(name)
         self.user_page()
         search_name = driver.find_element_by_accessibility_id(name)
-        #print(search_name)
         return search_name
 
 

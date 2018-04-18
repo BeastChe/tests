@@ -1,10 +1,5 @@
 
 
-from iOS.KIXX_IOS.model.user import User
-from iOS.KIXX_IOS.fixture import user_data
-from iOS.KIXX_IOS.data import users_data
-
-
 
 def test_mail(app):
     driver = app.driver
@@ -43,27 +38,3 @@ def test_tw(app):
     app.user_data.user_page()
     assert driver.find_element_by_accessibility_id(user.name).is_displayed()
     app.session.logout()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

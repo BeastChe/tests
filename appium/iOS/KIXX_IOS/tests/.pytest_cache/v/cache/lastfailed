@@ -1,7 +1,10 @@
 {
   "auth.py::test_fb": true,
   "auth.py::test_logout": true,
+  "auth.py::test_mail": true,
   "auth.py::test_mail[sorted_user]": true,
   "auth.py::test_mail[user0]": true,
-  "auth.py::test_tw": true
+  "auth.py::test_tw": true,
+  "signup.py::test_fb": true,
+  "signup.py::test_tw": true
 }
