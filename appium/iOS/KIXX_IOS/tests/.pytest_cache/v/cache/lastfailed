@@ -6,5 +6,6 @@
   "auth.py::test_mail[user0]": true,
   "auth.py::test_tw": true,
   "signup.py::test_fb": true,
-  "signup.py::test_tw": true
+  "signup.py::test_tw": true,
+  "tour.py::test_tour": true
 }

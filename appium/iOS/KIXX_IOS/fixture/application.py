@@ -6,6 +6,7 @@ from iOS.KIXX_IOS.fixture.user_data import UserHelper
 
 
 
+
 class Application:
 
     def __init__(self):
@@ -45,13 +46,13 @@ class Application:
 
     def select_your_tournament(self):
         driver = self.driver
+        driver.find_element_by_accessibility_id("Back").click()  # Чтобы не добавлять шаг клик на логин везде, я лучше в этом тесте вернусь назад
         driver.find_element_by_xpath("//XCUIElementTypeButton[2]").click()
 
 
     #ТУР
     def pass_tour(self):
         driver = self.driver
-        self.driver.find_element_by_accessibility_id("Back").click()  #Чтобы не добавлять шаг клик на логин везде, я лучше в этом тесте вернусь назад
         driver.find_element_by_accessibility_id("DO IT FOR ME").click()
         driver.find_element_by_accessibility_id("GOT IT").click()
         driver.find_element_by_accessibility_id("GOT IT").click()
