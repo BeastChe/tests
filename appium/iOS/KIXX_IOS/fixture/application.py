@@ -43,6 +43,28 @@ class Application:
     def get_started(self):
         self.driver.find_element_by_accessibility_id("GET STARTED").click()
 
+    def select_your_tournament(self):
+        driver = self.driver
+        driver.find_element_by_xpath("//XCUIElementTypeButton[2]").click()
+
+
+    #ТУР
+    def pass_tour(self):
+        driver = self.driver
+        self.driver.find_element_by_accessibility_id("Back").click()  #Чтобы не добавлять шаг клик на логин везде, я лучше в этом тесте вернусь назад
+        driver.find_element_by_accessibility_id("DO IT FOR ME").click()
+        driver.find_element_by_accessibility_id("GOT IT").click()
+        driver.find_element_by_accessibility_id("GOT IT").click()
+        driver.find_element_by_accessibility_id("PICK FOR ME").click()
+        driver.find_element_by_accessibility_id("GOT IT").click()
+        driver.find_element_by_accessibility_id("DO IT FOR ME").click()
+        driver.find_element_by_accessibility_id("PICK FOR ME").click()
+        driver.find_element_by_accessibility_id("DO IT FOR ME").click()
+        driver.find_element_by_xpath("//XCUIElementTypeOther[2]/XCUIElementTypeButton").click()
+        driver.find_element_by_accessibility_id("DO IT FOR ME").click()
+        driver.find_element_by_accessibility_id("PICK FOR ME").click()
+        driver.find_element_by_accessibility_id("ic check big").click()
+
     def lobby_loaded (self):
         contests = self.driver.find_element_by_accessibility_id("Contests")
         league_card = self.driver.find_element_by_xpath("//XCUIElementTypeCell[3]")

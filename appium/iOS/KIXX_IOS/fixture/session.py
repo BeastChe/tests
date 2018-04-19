@@ -12,7 +12,7 @@ class SessionHelper:
         driver = self.app.driver
         allow = driver.find_elements_by_name("Allow")
         allow[0].click()
-        driver.find_element_by_accessibility_id("Log In").click()
+        #driver.find_element_by_accessibility_id("Log In").click()
 
     def login_mail(self, user):
         driver = self.app.driver
