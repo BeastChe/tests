@@ -1,6 +1,4 @@
 
-
-
 def test_mail(app):
     driver = app.driver
     user = app.user_data.selected_user(selected_type_auth="email")
@@ -9,6 +7,7 @@ def test_mail(app):
     app.user_data.user_page()
     assert driver.find_element_by_accessibility_id(user.name).is_displayed()
     app.session.logout()
+
 
 def test_vk(app):
     driver = app.driver

@@ -1,8 +1,4 @@
 
-from time import sleep
-from iOS.KIXX_IOS.model.user import User
-
-
 class SessionHelper:
 
     def __init__ (self,app):

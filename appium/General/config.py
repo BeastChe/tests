@@ -63,3 +63,4 @@ def ios_noreset_desired_caps():
         'noReset': 'true'
     }
     return desired_caps
+

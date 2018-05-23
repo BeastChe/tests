@@ -1,5 +1,3 @@
-from iOS.KIXX_IOS.model.user import User
-from iOS.KIXX_IOS.data.users_data import user
 from iOS.KIXX_IOS.data import users_data
 import random
 
