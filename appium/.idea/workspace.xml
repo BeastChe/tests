@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a465d745-508d-42aa-9c36-64f25275636f" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/appium.iml" afterPath="$PROJECT_DIR$/.idea/appium.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/General/config.py" afterPath="$PROJECT_DIR$/General/config.py" />
-      <change beforePath="$PROJECT_DIR$/iOS/KIXX_IOS/fixture/application.py" afterPath="$PROJECT_DIR$/iOS/KIXX_IOS/fixture/application.py" />
-      <change beforePath="$PROJECT_DIR$/iOS/KIXX_IOS/fixture/session.py" afterPath="$PROJECT_DIR$/iOS/KIXX_IOS/fixture/session.py" />
-      <change beforePath="$PROJECT_DIR$/iOS/KIXX_IOS/fixture/user_data.py" afterPath="$PROJECT_DIR$/iOS/KIXX_IOS/fixture/user_data.py" />
-      <change beforePath="$PROJECT_DIR$/iOS/KIXX_IOS/tests/auth.py" afterPath="$PROJECT_DIR$/iOS/KIXX_IOS/tests/auth.py" />
+      <change beforePath="$PROJECT_DIR$/Android/auth.py" afterPath="$PROJECT_DIR$/Android/auth.py" />
+      <change beforePath="$PROJECT_DIR$/Android/etalon/conftest.py" afterPath="$PROJECT_DIR$/Android/etalon/conftest.py" />
+      <change beforePath="$PROJECT_DIR$/Android/etalon/fixsture/application.py" afterPath="$PROJECT_DIR$/Android/etalon/fixsture/application.py" />
+      <change beforePath="$PROJECT_DIR$/Android/etalon/test/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/Android/etalon/test/feed_download.py" afterPath="$PROJECT_DIR$/Android/etalon/test/feed_download.py" />
+      <change beforePath="$PROJECT_DIR$/Android/test/auth_onboarding.py" afterPath="$PROJECT_DIR$/Android/test_old_bi/auth_onboarding.py" />
+      <change beforePath="$PROJECT_DIR$/Android/test/auth_popup.py" afterPath="$PROJECT_DIR$/Android/test_old_bi/auth_popup.py" />
+      <change beforePath="$PROJECT_DIR$/Android/test/auth_profile.py" afterPath="$PROJECT_DIR$/Android/test_old_bi/auth_profile.py" />
+      <change beforePath="$PROJECT_DIR$/Android/test/tour.py" afterPath="$PROJECT_DIR$/Android/test_old_bi/tour.py" />
+      <change beforePath="$PROJECT_DIR$/app/app-debug.apk" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/iOS/KIXX_IOS/tests/.pytest_cache/v/cache/lastfailed" afterPath="$PROJECT_DIR$/iOS/KIXX_IOS/tests/.pytest_cache/v/cache/lastfailed" />
+      <change beforePath="$PROJECT_DIR$/test_runner.py" afterPath="$PROJECT_DIR$/test_runner.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,25 +26,57 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="application.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/iOS/KIXX_IOS/fixture/application.py">
+      <file leaf-file-name="auth.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iOS/KIXX_IOS/tests/auth.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="90">
+              <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Android/etalon/fixsture/application.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="4" column="60" lean-forward="false" selection-start-line="4" selection-start-column="60" selection-end-line="4" selection-end-column="60" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#1#29#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Android/etalon/fixsture/application.py">
+      <file leaf-file-name="conftest.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Android/etalon/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+            <state relative-caret-position="90">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding>
-                <element signature="e#1#29#0" expanded="true" />
+                <element signature="e#1#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="rnd_mail.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/General/rnd_mail.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="51" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="51" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="feed_download.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Android/etalon/test/feed_download.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -52,6 +92,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="feed_news.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Android/etalon/fixsture/feed_news.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="session.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Android/etalon/fixsture/session.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -62,64 +112,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="session.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/iOS/KIXX_IOS/fixture/session.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="22" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="4" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="feed_news.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Android/etalon/fixsture/feed_news.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user_data.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/iOS/KIXX_IOS/fixture/user_data.py">
+      <file leaf-file-name="conftest.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/iOS/KIXX_IOS/conftest.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="16" lean-forward="true" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="feed_download.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Android/etalon/test/feed_download.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="conftest.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Android/etalon/conftest.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="18" />
               <folding>
                 <element signature="e#1#14#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="auth.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/iOS/KIXX_IOS/tests/auth.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="38" column="24" lean-forward="true" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -149,7 +149,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/Android/firstTest.py" />
         <option value="$PROJECT_DIR$/Android/AndroidSwipeScroll.py" />
         <option value="$PROJECT_DIR$/Android/chat_crash.py" />
@@ -188,24 +187,25 @@
         <option value="$PROJECT_DIR$/General/config.py" />
         <option value="$PROJECT_DIR$/iOS/KIXX_IOS/tests/tets.py" />
         <option value="$PROJECT_DIR$/keke.py" />
-        <option value="$PROJECT_DIR$/Android/etalon/conftest.py" />
         <option value="$PROJECT_DIR$/iOS/KIXX_IOS/fixture/application.py" />
-        <option value="$PROJECT_DIR$/General/new_config.py" />
         <option value="$PROJECT_DIR$/iOS/KIXX_IOS/fixture/session.py" />
         <option value="$PROJECT_DIR$/Android/etalon/fixsture/session.py" />
         <option value="$PROJECT_DIR$/Android/etalon/tests/eee.py" />
         <option value="$PROJECT_DIR$/Android/etalon/tests/feed_download.py" />
         <option value="$PROJECT_DIR$/iOS/KIXX_IOS/tests/auth.py" />
-        <option value="$PROJECT_DIR$/Android/etalon/fixsture/feed_news.py" />
         <option value="$PROJECT_DIR$/iOS/KIXX_IOS/fixture/user_data.py" />
+        <option value="$PROJECT_DIR$/Android/etalon/test/fees_download.py" />
+        <option value="$PROJECT_DIR$/Android/etalon/fixsture/feed_news.py" />
+        <option value="$PROJECT_DIR$/General/new_config.py" />
         <option value="$PROJECT_DIR$/Android/etalon/test/feed_download.py" />
         <option value="$PROJECT_DIR$/Android/etalon/fixsture/application.py" />
+        <option value="$PROJECT_DIR$/Android/etalon/conftest.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1280" />
-    <option name="height" value="800" />
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -244,6 +244,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -267,7 +268,7 @@
               <item name="appium" type="462c0819:PsiDirectoryNode" />
               <item name="Android" type="462c0819:PsiDirectoryNode" />
               <item name="etalon" type="462c0819:PsiDirectoryNode" />
-              <item name="fixsture" type="462c0819:PsiDirectoryNode" />
+              <item name="allure" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="appium" type="b2602c69:ProjectViewProjectNode" />
@@ -276,56 +277,10 @@
               <item name="etalon" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="appium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="appium" type="462c0819:PsiDirectoryNode" />
-              <item name="Android" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="appium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="appium" type="462c0819:PsiDirectoryNode" />
-              <item name="General" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="appium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="appium" type="462c0819:PsiDirectoryNode" />
-              <item name="iOS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="appium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="appium" type="462c0819:PsiDirectoryNode" />
-              <item name="iOS" type="462c0819:PsiDirectoryNode" />
-              <item name="KIXX_IOS" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="appium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="appium" type="462c0819:PsiDirectoryNode" />
-              <item name="iOS" type="462c0819:PsiDirectoryNode" />
-              <item name="KIXX_IOS" type="462c0819:PsiDirectoryNode" />
-              <item name="fixture" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="appium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="appium" type="462c0819:PsiDirectoryNode" />
-              <item name="iOS" type="462c0819:PsiDirectoryNode" />
-              <item name="KIXX_IOS" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="appium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="appium" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; Python 3.6.3 (/Library/Frameworks/Python.framework/Versions/3.6/bin/python3.6) &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -333,17 +288,17 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/iOS/KIXX_IOS" />
-      <recent name="$PROJECT_DIR$/iOS/KIXX_IOS/fixsture" />
-      <recent name="$PROJECT_DIR$/Android" />
-      <recent name="$PROJECT_DIR$/" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$/Android" />
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Android/etalon" />
+      <recent name="$PROJECT_DIR$/iOS/KIXX_IOS" />
+      <recent name="$PROJECT_DIR$/iOS/KIXX_IOS/fixsture" />
+      <recent name="$PROJECT_DIR$/Android" />
+      <recent name="$PROJECT_DIR$/" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -413,6 +368,21 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="py.test in auth.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/iOS/KIXX_IOS/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="appium" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/iOS/KIXX_IOS/tests/auth.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
     <configuration name="py.test in feed_download.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -428,35 +398,20 @@
       <option name="_new_target" value="&quot;$PROJECT_DIR$/Android/etalon/test/feed_download.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <configuration name="py.test in tour.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/iOS/KIXX_IOS/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="appium" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/iOS/KIXX_IOS/tests/tour.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in tour.py" />
-      <item index="1" class="java.lang.String" itemvalue="Python.keke" />
-      <item index="2" class="java.lang.String" itemvalue="Python.new_config" />
-      <item index="3" class="java.lang.String" itemvalue="Python.feed_download" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in feed_download.py" />
+      <item index="0" class="java.lang.String" itemvalue="Python.keke" />
+      <item index="1" class="java.lang.String" itemvalue="Python.new_config" />
+      <item index="2" class="java.lang.String" itemvalue="Python.feed_download" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test in feed_download.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in auth.py" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python tests.py.test in feed_download.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python.feed_download" />
-        <item index="2" class="java.lang.String" itemvalue="Python.new_config" />
-        <item index="3" class="java.lang.String" itemvalue="Python.keke" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test in tour.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test in auth.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python.feed_download" />
+        <item index="3" class="java.lang.String" itemvalue="Python.new_config" />
+        <item index="4" class="java.lang.String" itemvalue="Python.keke" />
       </list>
     </recent_temporary>
   </component>
@@ -477,35 +432,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_in_feed_download_py - 2018.05.23 at 15h 26m 57s.xml">
+    <history-entry file="py_test_in_feed_download_py - 2018.05.28 at 14h 40m 47s.xml">
       <configuration name="py.test in feed_download.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_feed_download_py - 2018.05.23 at 15h 31m 43s.xml">
+    <history-entry file="py_test_in_feed_download_py - 2018.05.28 at 14h 45m 35s.xml">
       <configuration name="py.test in feed_download.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_feed_download_py - 2018.05.23 at 15h 34m 38s.xml">
+    <history-entry file="py_test_in_feed_download_py - 2018.05.28 at 14h 55m 41s.xml">
       <configuration name="py.test in feed_download.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_feed_download_py - 2018.05.23 at 15h 37m 44s.xml">
+    <history-entry file="py_test_in_feed_download_py - 2018.05.28 at 14h 59m 23s.xml">
       <configuration name="py.test in feed_download.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_tour_py - 2018.04.23 at 19h 07m 33s.xml">
-      <configuration name="py.test in tour.py" configurationId="tests" />
+    <history-entry file="py_test_in_feed_download_py - 2018.05.28 at 15h 00m 18s.xml">
+      <configuration name="py.test in feed_download.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_tour_py - 2018.04.23 at 19h 08m 20s.xml">
-      <configuration name="py.test in tour.py" configurationId="tests" />
+    <history-entry file="py_test_in_feed_download_py - 2018.05.28 at 15h 04m 42s.xml">
+      <configuration name="py.test in feed_download.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_tour_py - 2018.04.23 at 19h 17m 12s.xml">
-      <configuration name="py.test in tour.py" configurationId="tests" />
+    <history-entry file="py_test_in_feed_download_py - 2018.05.28 at 15h 31m 05s.xml">
+      <configuration name="py.test in feed_download.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_tour_py - 2018.04.23 at 19h 37m 45s.xml">
-      <configuration name="py.test in tour.py" configurationId="tests" />
+    <history-entry file="py_test_in_feed_download_py - 2018.05.28 at 15h 33m 50s.xml">
+      <configuration name="py.test in feed_download.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_tour_py - 2018.04.23 at 19h 50m 24s.xml">
-      <configuration name="py.test in tour.py" configurationId="tests" />
+    <history-entry file="py_test_in_feed_download_py - 2018.05.28 at 15h 35m 51s.xml">
+      <configuration name="py.test in feed_download.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_in_tour_py - 2018.04.23 at 19h 55m 32s.xml">
-      <configuration name="py.test in tour.py" configurationId="tests" />
+    <history-entry file="py_test_in_feed_download_py - 2018.05.28 at 16h 08m 10s.xml">
+      <configuration name="py.test in feed_download.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -515,12 +470,12 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15745129" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28301886" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28301886" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39752406" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39721945" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -552,34 +507,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/testscroll.py" />
-    <entry file="file://$PROJECT_DIR$/wfc.py" />
-    <entry file="file://$PROJECT_DIR$/General/auth.py" />
-    <entry file="file://$PROJECT_DIR$/Android/chat_crash.py" />
-    <entry file="file://$PROJECT_DIR$/Android/auth_profile_new.py" />
-    <entry file="file://$PROJECT_DIR$/Android/AndroidSwipeScroll.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="6" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="446" column="8" lean-forward="false" selection-start-line="446" selection-start-column="8" selection-end-line="446" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/support/wait.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="87" column="26" lean-forward="true" selection-start-line="87" selection-start-column="26" selection-end-line="87" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xiaomi.json" />
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/nose/case.py" />
     <entry file="file://$PROJECT_DIR$/iOS/BI_iOS.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -599,9 +526,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="28" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="42" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -620,14 +544,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Android/test/auth_profile.py">
+    <entry file="file://$PROJECT_DIR$/Android/test_old_bi/auth_profile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Android/test/auth_popup.py">
+    <entry file="file://$PROJECT_DIR$/Android/test_old_bi/auth_popup.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -656,7 +580,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Android/test/tour.py">
+    <entry file="file://$PROJECT_DIR$/Android/test_old_bi/tour.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
@@ -684,13 +608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iOS/KIXX_IOS/data/users_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="50" lean-forward="false" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/iOS/ios.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-453">
@@ -702,7 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="42" column="81" lean-forward="false" selection-start-line="42" selection-start-column="2" selection-end-line="42" selection-end-column="81" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -710,15 +626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/General/rnd_mail.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="51" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -726,33 +633,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Android/etalon/fixture.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iOS/KIXX_IOS/conftest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <element signature="e#1#14#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Android/etalon/fixture.py" />
     <entry file="file://$PROJECT_DIR$/keke.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="417">
           <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -760,7 +648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="20" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -768,9 +655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -778,6 +662,100 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOS/KIXX_IOS/tests/tets.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOS/KIXX_IOS/fixture/application.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Android/etalon/tests/eee.py" />
+    <entry file="file://$PROJECT_DIR$/Android/test_old_bi/auth_onboarding.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="14" column="84" lean-forward="false" selection-start-line="14" selection-start-column="84" selection-end-line="14" selection-end-column="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOS/KIXX_IOS/fixture/session.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="22" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOS/KIXX_IOS/fixture/user_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="16" lean-forward="true" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Android/etalon/test/feed_download.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="26" lean-forward="false" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Android/etalon/test/feed_download.py/edfe5f3b-3591-42d5-831e-11aa28027bcf-testsuite.xml" />
+    <entry file="file://$PROJECT_DIR$/Android/etalon/test/.pytest_cache/v/cache/nodeids">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Android/etalon/test/.pytest_cache/v/cache/lastfailed">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.pytest_cache/v/cache/lastfailed">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Android/etalon/allure/index.xml" />
+    <entry file="file://$PROJECT_DIR$/Android/etalon/allure/bedb5bc5-109a-40c2-92d7-7d12cb729946-testsuite.xml" />
+    <entry file="file://$PROJECT_DIR$/iOS/KIXX_IOS/data/users_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="27" lean-forward="false" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/iOS/KIXX_IOS/tests/auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Android/etalon/allure/-result/c822c99d-0e08-4ce6-b433-649cab89eeba-testsuite.xml" />
+    <entry file="file://$PROJECT_DIR$/Android/etalon/allure/5d3a08df-3d10-44d3-a15a-e0686306934e-testsuite.xml" />
+    <entry file="file://$PROJECT_DIR$/General/rnd_mail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="51" lean-forward="false" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="51" />
           <folding />
         </state>
       </provider>
@@ -790,13 +768,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iOS/KIXX_IOS/tests/tets.py">
+    <entry file="file://$PROJECT_DIR$/iOS/KIXX_IOS/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="26" selection-end-column="18" />
           <folding>
-            <element signature="e#0#13#0" expanded="false" />
+            <element signature="e#1#14#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Android/etalon/fixsture/feed_news.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="36" lean-forward="false" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -808,88 +794,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/iOS/KIXX_IOS/fixture/application.py">
+    <entry file="file://$PROJECT_DIR$/Android/etalon/fixsture/application.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="15">
+          <caret line="4" column="60" lean-forward="false" selection-start-line="4" selection-start-column="60" selection-end-line="4" selection-end-column="60" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <element signature="e#1#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Android/etalon/tests/eee.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Android/etalon/allure/ceb43608-5a34-4f1f-a5f9-9690faf16133-testsuite.xml" />
     <entry file="file://$PROJECT_DIR$/Android/etalon/conftest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="90">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding>
             <element signature="e#1#14#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Android/test/auth_onboarding.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="14" column="84" lean-forward="false" selection-start-line="14" selection-start-column="84" selection-end-line="14" selection-end-column="84" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iOS/KIXX_IOS/fixture/session.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="22" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="4" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Android/etalon/fixsture/feed_news.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iOS/KIXX_IOS/fixture/user_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="16" lean-forward="true" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iOS/KIXX_IOS/tests/auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="38" column="24" lean-forward="true" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Android/etalon/test/feed_download.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Android/etalon/fixsture/application.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="22" lean-forward="false" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding>
-            <element signature="e#1#29#0" expanded="true" />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>

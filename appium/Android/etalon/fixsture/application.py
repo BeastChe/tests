@@ -15,7 +15,6 @@ class Application:
         self.feed_news = FeedNewsHelper(self)
 
     def is_valid(self):
-        driver = self.driver
         try:
             if 1 == 1:
                 return True

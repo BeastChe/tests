@@ -1,0 +1,27 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1527519131300" stop="1527519199468">
+  <name>feed_download</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1527519131300" status="passed" stop="1527519199468">
+      <name>test_post_download</name>
+      <attachments/>
+      <labels>
+        <label name="testId" value="тест кейс цска сосать"/>
+        <label name="feature" value="фича ебать спартак"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="3340-MainThread"/>
+        <label name="host" value="MacBook-Pro-Andrej.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1527519198338" status="passed" stop="1527519199467">
+          <name>пек пек</name>
+          <title>пек пек</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

@@ -1,7 +1,7 @@
 
 import unittest
 
-from Android.test import tour, auth_profile, auth_onboarding, auth_popup
+from Android import tour, auth_profile, auth_onboarding, auth_popup
 
 suite = unittest.TestSuite()
 suite.addTest(unittest.makeSuite(tour.tour))

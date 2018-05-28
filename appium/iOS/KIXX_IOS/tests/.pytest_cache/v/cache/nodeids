@@ -1,0 +1,6 @@
+[
+  "auth.py::test_mail",
+  "auth.py::test_vk",
+  "auth.py::test_fb",
+  "auth.py::test_tw"
+]

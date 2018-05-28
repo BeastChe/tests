@@ -3,7 +3,6 @@ import pytest
 
 from Android.etalon.fixsture.application import Application
 
-
 fixture = None
 
 @pytest.fixture
@@ -23,5 +22,3 @@ def stop(request):
         fixture.destroy()
     request.addfinalizer(fin)
     return fixture
-
-
